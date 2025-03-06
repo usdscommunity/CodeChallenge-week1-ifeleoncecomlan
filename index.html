@@ -1,0 +1,96 @@
+<!-- Le défi est de corriger la structure et la sémantique du code HTML
+afin de mettre en application les notions apprises cette semaine. Bonne séance de code!!! -->
+
+
+<html>
+<head>
+    <title>Boutique en ligne</title>
+    <style>
+        .container { margin: 10px; }
+        .box { border: 1px solid black; padding: 5px; }
+        .big { font-size: 25px; color: red; }
+        .small { font-size: 12px; }
+        .table { border: 1px solid blue; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="box">
+        <b>BIENVENUE SUR NOTRE SITE</b>
+    </div>
+
+    <div>
+        <div class="box">
+            <u>Produit 1</u><br>
+            <img src="produit1.webp" width="150" height="150"><br>
+            Prix: 100€<br>
+            <input type="submit" value="Acheter">
+            <table class="table">
+                <tr>
+                    <td>Caractéristique</td>
+                    <td>Valeur</td>
+                </tr>
+                <tr>
+                    <td>Couleur</td>
+                    <td>Rouge</td>
+                </tr>
+                <tr>
+                    <td>Taille</td>
+                    <td>M</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="box">
+            <u>Produit 2</u><br>
+            <img src="produit2.webp" width="150" height="150"><br>
+            Prix: 200€<br>
+            <input type="submit" value="Acheter">
+            <table class="table">
+                <tr>
+                    <td>Caractéristique</td>
+                    <td>Valeur</td>
+                </tr>
+                <tr>
+                    <td>Couleur</td>
+                    <td>Bleu</td>
+                </tr>
+                <tr>
+                    <td>Taille</td>
+                    <td>L</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <marquee>Promo spéciale aujourd'hui : Livraison gratuite !</marquee>
+
+    <div class="box">
+        <h5>Contactez-nous : boutique@email.com</h5>
+        <form>
+            Nom: <input type="text" name="nom"><br>
+            Email: <input type="text" name="email"><br>
+            Message: <textarea></textarea><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+
+    <div>
+        <b class="big">Avis des clients</b><br>
+        <div class="box small">
+            <i>Jean :</i> Super produit, je recommande !
+        </div>
+        <div class="box small">
+            <i>Marie :</i> Livraison rapide, très satisfait.
+        </div>
+        <div class="box small">
+            <i>Luc :</i> Produit conforme, service client réactif.
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
